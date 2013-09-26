@@ -1,5 +1,5 @@
 $(function() {
-    var client = new WindowsAzure.MobileServiceClient('https://zumohtmltestapp-dontdelete.azure-mobile.net/', 'qracDIElusfoXlIXdhgighxzonwpBf72'),
+    var client = new WindowsAzure.MobileServiceClient('https://existingappblupreview.preview.azure-mobile-preview.net/', 'IrhZwfNLKsJHAGIKXJiygefkuDcVdY48'),
         todoItemTable = client.getTable('todoitem');
 
     // Read current data and rebuild UI.
